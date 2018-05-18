@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25C2720D20AF9EEC0009182F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2720C20AF9EEC0009182F /* AppDelegate.swift */; };
+		25C2720F20AF9EEC0009182F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2720E20AF9EEC0009182F /* ViewController.swift */; };
+		25C2721220AF9EEC0009182F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C2721020AF9EEC0009182F /* Main.storyboard */; };
+		25C2721420AF9EEE0009182F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C2721320AF9EEE0009182F /* Assets.xcassets */; };
+		25C2721720AF9EEE0009182F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C2721520AF9EEE0009182F /* LaunchScreen.storyboard */; };
+		25C2722220AF9EEE0009182F /* GeoCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2722120AF9EEE0009182F /* GeoCalculatorTests.swift */; };
+		25C2722D20AF9EEE0009182F /* GeoCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2722C20AF9EEE0009182F /* GeoCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25C2721E20AF9EEE0009182F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25C2720120AF9EEC0009182F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25C2720820AF9EEC0009182F;
+			remoteInfo = GeoCalculator;
+		};
+		25C2722920AF9EEE0009182F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25C2720120AF9EEC0009182F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25C2720820AF9EEC0009182F;
+			remoteInfo = GeoCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25C2720920AF9EEC0009182F /* GeoCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C2720C20AF9EEC0009182F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25C2720E20AF9EEC0009182F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25C2721120AF9EEC0009182F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25C2721320AF9EEE0009182F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25C2721620AF9EEE0009182F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25C2721820AF9EEE0009182F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C2721D20AF9EEE0009182F /* GeoCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C2722120AF9EEE0009182F /* GeoCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCalculatorTests.swift; sourceTree = "<group>"; };
+		25C2722320AF9EEE0009182F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C2722820AF9EEE0009182F /* GeoCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C2722C20AF9EEE0009182F /* GeoCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCalculatorUITests.swift; sourceTree = "<group>"; };
+		25C2722E20AF9EEE0009182F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C2720620AF9EEC0009182F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C2721A20AF9EEE0009182F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C2722520AF9EEE0009182F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C2720020AF9EEC0009182F = {
+			isa = PBXGroup;
+			children = (
+				25C2720B20AF9EEC0009182F /* GeoCalculator */,
+				25C2722020AF9EEE0009182F /* GeoCalculatorTests */,
+				25C2722B20AF9EEE0009182F /* GeoCalculatorUITests */,
+				25C2720A20AF9EEC0009182F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25C2720A20AF9EEC0009182F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C2720920AF9EEC0009182F /* GeoCalculator.app */,
+				25C2721D20AF9EEE0009182F /* GeoCalculatorTests.xctest */,
+				25C2722820AF9EEE0009182F /* GeoCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C2720B20AF9EEC0009182F /* GeoCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				25C2720C20AF9EEC0009182F /* AppDelegate.swift */,
+				25C2720E20AF9EEC0009182F /* ViewController.swift */,
+				25C2721020AF9EEC0009182F /* Main.storyboard */,
+				25C2721320AF9EEE0009182F /* Assets.xcassets */,
+				25C2721520AF9EEE0009182F /* LaunchScreen.storyboard */,
+				25C2721820AF9EEE0009182F /* Info.plist */,
+			);
+			path = GeoCalculator;
+			sourceTree = "<group>";
+		};
+		25C2722020AF9EEE0009182F /* GeoCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				25C2722120AF9EEE0009182F /* GeoCalculatorTests.swift */,
+				25C2722320AF9EEE0009182F /* Info.plist */,
+			);
+			path = GeoCalculatorTests;
+			sourceTree = "<group>";
+		};
+		25C2722B20AF9EEE0009182F /* GeoCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25C2722C20AF9EEE0009182F /* GeoCalculatorUITests.swift */,
+				25C2722E20AF9EEE0009182F /* Info.plist */,
+			);
+			path = GeoCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25C2720820AF9EEC0009182F /* GeoCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C2723120AF9EEE0009182F /* Build configuration list for PBXNativeTarget "GeoCalculator" */;
+			buildPhases = (
+				25C2720520AF9EEC0009182F /* Sources */,
+				25C2720620AF9EEC0009182F /* Frameworks */,
+				25C2720720AF9EEC0009182F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoCalculator;
+			productName = GeoCalculator;
+			productReference = 25C2720920AF9EEC0009182F /* GeoCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25C2721C20AF9EEE0009182F /* GeoCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C2723420AF9EEE0009182F /* Build configuration list for PBXNativeTarget "GeoCalculatorTests" */;
+			buildPhases = (
+				25C2721920AF9EEE0009182F /* Sources */,
+				25C2721A20AF9EEE0009182F /* Frameworks */,
+				25C2721B20AF9EEE0009182F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C2721F20AF9EEE0009182F /* PBXTargetDependency */,
+			);
+			name = GeoCalculatorTests;
+			productName = GeoCalculatorTests;
+			productReference = 25C2721D20AF9EEE0009182F /* GeoCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25C2722720AF9EEE0009182F /* GeoCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C2723720AF9EEE0009182F /* Build configuration list for PBXNativeTarget "GeoCalculatorUITests" */;
+			buildPhases = (
+				25C2722420AF9EEE0009182F /* Sources */,
+				25C2722520AF9EEE0009182F /* Frameworks */,
+				25C2722620AF9EEE0009182F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C2722A20AF9EEE0009182F /* PBXTargetDependency */,
+			);
+			name = GeoCalculatorUITests;
+			productName = GeoCalculatorUITests;
+			productReference = 25C2722820AF9EEE0009182F /* GeoCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C2720120AF9EEC0009182F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = edu.gvsu.cis;
+				TargetAttributes = {
+					25C2720820AF9EEC0009182F = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					25C2721C20AF9EEE0009182F = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 25C2720820AF9EEC0009182F;
+					};
+					25C2722720AF9EEE0009182F = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 25C2720820AF9EEC0009182F;
+					};
+				};
+			};
+			buildConfigurationList = 25C2720420AF9EEC0009182F /* Build configuration list for PBXProject "GeoCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25C2720020AF9EEC0009182F;
+			productRefGroup = 25C2720A20AF9EEC0009182F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25C2720820AF9EEC0009182F /* GeoCalculator */,
+				25C2721C20AF9EEE0009182F /* GeoCalculatorTests */,
+				25C2722720AF9EEE0009182F /* GeoCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25C2720720AF9EEC0009182F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C2721720AF9EEE0009182F /* LaunchScreen.storyboard in Resources */,
+				25C2721420AF9EEE0009182F /* Assets.xcassets in Resources */,
+				25C2721220AF9EEC0009182F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C2721B20AF9EEE0009182F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C2722620AF9EEE0009182F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C2720520AF9EEC0009182F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C2720F20AF9EEC0009182F /* ViewController.swift in Sources */,
+				25C2720D20AF9EEC0009182F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C2721920AF9EEE0009182F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C2722220AF9EEE0009182F /* GeoCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C2722420AF9EEE0009182F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C2722D20AF9EEE0009182F /* GeoCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25C2721F20AF9EEE0009182F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25C2720820AF9EEC0009182F /* GeoCalculator */;
+			targetProxy = 25C2721E20AF9EEE0009182F /* PBXContainerItemProxy */;
+		};
+		25C2722A20AF9EEE0009182F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25C2720820AF9EEC0009182F /* GeoCalculator */;
+			targetProxy = 25C2722920AF9EEE0009182F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25C2721020AF9EEC0009182F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C2721120AF9EEC0009182F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25C2721520AF9EEE0009182F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C2721620AF9EEE0009182F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25C2722F20AF9EEE0009182F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25C2723020AF9EEE0009182F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C2723220AF9EEE0009182F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZTB99XFP5;
+				INFOPLIST_FILE = GeoCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gvsu.cis.GeoCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25C2723320AF9EEE0009182F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZTB99XFP5;
+				INFOPLIST_FILE = GeoCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gvsu.cis.GeoCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25C2723520AF9EEE0009182F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZTB99XFP5;
+				INFOPLIST_FILE = GeoCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gvsu.cis.GeoCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoCalculator.app/GeoCalculator";
+			};
+			name = Debug;
+		};
+		25C2723620AF9EEE0009182F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZTB99XFP5;
+				INFOPLIST_FILE = GeoCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gvsu.cis.GeoCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoCalculator.app/GeoCalculator";
+			};
+			name = Release;
+		};
+		25C2723820AF9EEE0009182F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZTB99XFP5;
+				INFOPLIST_FILE = GeoCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gvsu.cis.GeoCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoCalculator;
+			};
+			name = Debug;
+		};
+		25C2723920AF9EEE0009182F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZTB99XFP5;
+				INFOPLIST_FILE = GeoCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gvsu.cis.GeoCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C2720420AF9EEC0009182F /* Build configuration list for PBXProject "GeoCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C2722F20AF9EEE0009182F /* Debug */,
+				25C2723020AF9EEE0009182F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C2723120AF9EEE0009182F /* Build configuration list for PBXNativeTarget "GeoCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C2723220AF9EEE0009182F /* Debug */,
+				25C2723320AF9EEE0009182F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C2723420AF9EEE0009182F /* Build configuration list for PBXNativeTarget "GeoCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C2723520AF9EEE0009182F /* Debug */,
+				25C2723620AF9EEE0009182F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C2723720AF9EEE0009182F /* Build configuration list for PBXNativeTarget "GeoCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C2723820AF9EEE0009182F /* Debug */,
+				25C2723920AF9EEE0009182F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25C2720120AF9EEC0009182F /* Project object */;
+}
