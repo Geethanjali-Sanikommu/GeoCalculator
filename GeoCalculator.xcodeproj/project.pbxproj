@@ -14,6 +14,8 @@
 		25C2721720AF9EEE0009182F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C2721520AF9EEE0009182F /* LaunchScreen.storyboard */; };
 		25C2722220AF9EEE0009182F /* GeoCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2722120AF9EEE0009182F /* GeoCalculatorTests.swift */; };
 		25C2722D20AF9EEE0009182F /* GeoCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2722C20AF9EEE0009182F /* GeoCalculatorUITests.swift */; };
+		25C2723D20AFA5690009182F /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2723C20AFA5690009182F /* DecimalMinusTextField.swift */; };
+		25C2724320B0E6D80009182F /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2724220B0E6D80009182F /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		25C2722820AF9EEE0009182F /* GeoCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C2722C20AF9EEE0009182F /* GeoCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCalculatorUITests.swift; sourceTree = "<group>"; };
 		25C2722E20AF9EEE0009182F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C2723C20AFA5690009182F /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
+		25C2724220B0E6D80009182F /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				25C2720C20AF9EEC0009182F /* AppDelegate.swift */,
+				25C2723C20AFA5690009182F /* DecimalMinusTextField.swift */,
 				25C2720E20AF9EEC0009182F /* ViewController.swift */,
 				25C2721020AF9EEC0009182F /* Main.storyboard */,
+				25C2724220B0E6D80009182F /* PickerViewController.swift */,
 				25C2721320AF9EEE0009182F /* Assets.xcassets */,
 				25C2721520AF9EEE0009182F /* LaunchScreen.storyboard */,
 				25C2721820AF9EEE0009182F /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C2723D20AFA5690009182F /* DecimalMinusTextField.swift in Sources */,
 				25C2720F20AF9EEC0009182F /* ViewController.swift in Sources */,
+				25C2724320B0E6D80009182F /* PickerViewController.swift in Sources */,
 				25C2720D20AF9EEC0009182F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
