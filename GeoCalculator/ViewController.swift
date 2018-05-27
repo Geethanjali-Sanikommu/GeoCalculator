@@ -14,10 +14,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Calculate: UIButton!
     @IBOutlet weak var Clear: UIButton!
-    @IBOutlet weak var textField1: DecimalMinusTextField!
-    @IBOutlet weak var textField2: DecimalMinusTextField!
-    @IBOutlet weak var textField3: DecimalMinusTextField!
-    @IBOutlet weak var textField4: DecimalMinusTextField!
+    
+    @IBOutlet weak var textField1: UITextField!
+    @IBOutlet weak var textField2: UITextField!
+    @IBOutlet weak var textField3: UITextField!
+    @IBOutlet weak var textField4: UITextField!
     @IBOutlet weak var DUnit : UILabel!
     @IBOutlet weak var BUnit : UILabel!
     @IBOutlet weak var CalcResult: UILabel!
@@ -55,10 +56,10 @@ class ViewController: UIViewController {
         let distanceInMiles = (distanceInKilometers*0.621371)
         let roundDmiles = Double(round(100*distanceInMiles)/100)
           if(selectDistanceUnits == "kilometers"){
-                self.CalcResult.text = "\(roundDkilometer) kilometers"
+                self.CalcResult.text = "\(roundDkilometer)"
            }
           else{
-             self.CalcResult.text = "\(roundDmiles) miles"
+             self.CalcResult.text = "\(roundDmiles)"
           }
         //bearing
        

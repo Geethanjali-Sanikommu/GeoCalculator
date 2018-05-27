@@ -36,8 +36,9 @@ class PickerViewController: UIViewController, UIPickerViewDataSource, UIPickerVi
    
     @IBAction func SavePressed(_ sender: Any) {
        
-        performSegue(withIdentifier: "segue", sender: self)
+       // performSegue(withIdentifier: "segue", sender: self)
         
+        dismiss(animated: true, completion: nil)
     }
    
     override func viewDidLoad() {
