@@ -68,10 +68,10 @@ class ViewController: UIViewController {
         let roundDegrees = Double(round(100*(bearingInDegrees))/100)
         let roundMils = Double(round(100*(bearingInMils))/100)
         if(selectBearingUnits == "degrees"){
-            self.BearingResult.text = "\(roundDegrees) degrees"
+            self.BearingResult.text = "\(roundDegrees)"
         }
         else {
-            self.BearingResult.text = "\(roundMils) mils"
+            self.BearingResult.text = "\(roundMils)"
         }
      
     }
