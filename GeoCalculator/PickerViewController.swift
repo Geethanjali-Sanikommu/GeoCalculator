@@ -8,6 +8,10 @@
 //Geethanjali Sanikommu, Jidnyasa Mantri
 import UIKit
 
+protocol PickerViewControllerDelegate {
+func settingsChanged(distanceUnit: String, bearingUnit: String)
+}
+
 class PickerViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
     @IBOutlet weak var distanceUnit: UITextField!
@@ -17,18 +21,18 @@ class PickerViewController: UIViewController, UIPickerViewDataSource, UIPickerVi
     @IBOutlet weak var Save: UIBarButtonItem!
     
     
-    
+    var delegate: PickerViewControllerDelegate?
     var units:[String] = [String]()
     var picker = 0
     
     var Unit1: String?
     var Unit2 : String?
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+/*    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let FC = segue.destination as! ViewController
         FC.selectDistanceUnits = distanceUnit.text!
         FC.selectBearingUnits = bearingUnit.text!
-    }
+    }*/
    
     @IBAction func CancelPressed(_ sender: UIButton) {
      dismiss(animated: true, completion: nil)
@@ -38,13 +42,25 @@ class PickerViewController: UIViewController, UIPickerViewDataSource, UIPickerVi
        
        // performSegue(withIdentifier: "segue", sender: self)
         
-        dismiss(animated: true, completion: nil)
+       // dismiss(animated: true, completion: nil)
+        
+     /*   let vc = ViewController(nibName: "ViewController", bundle: nil)
+        vc.selectDistanceUnits = distanceUnit.text!
+        vc.selectBearingUnits = bearingUnit.text!
+        navigationController? .pushViewController(vc, animated: true)*/
+       // dismiss(animated: true, completion: nil)
+        self.delegate?.settingsChanged(distanceUnit: Unit1!, bearingUnit: Unit2!)
+        self.dismiss(animated: true, completion: nil)
+
     }
    
     override func viewDidLoad() {
         super.viewDidLoad()
         PickerView.dataSource = self
         PickerView.delegate = self
+        
+       //  distanceUnit.text = Unit1!
+       //  bearingUnit.text = Unit2!
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.hideView))
         view.isUserInteractionEnabled = true

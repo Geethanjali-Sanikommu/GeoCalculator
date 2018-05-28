@@ -165,8 +165,8 @@
                         <outlet property="Calculate" destination="2Bu-Sr-eMf" id="GKj-EM-6zP"/>
                         <outlet property="Clear" destination="eJv-Bg-JeM" id="xQ1-Zm-FoE"/>
                         <outlet property="Settings" destination="LZv-gQ-A76" id="dWv-b9-cST"/>
-                        <outlet property="beaUnit" destination="v7K-1y-YKY" id="k4R-wr-xWF"/>
-                        <outlet property="distUnit" destination="nu7-Jr-7bn" id="1lg-MA-ti5"/>
+                        <outlet property="beaUnit" destination="v7K-1y-YKY" id="B90-ca-a2F"/>
+                        <outlet property="distUnit" destination="nu7-Jr-7bn" id="Qn8-NG-ka0"/>
                         <outlet property="textField1" destination="7cV-p8-R27" id="eV7-vo-FIA"/>
                         <outlet property="textField2" destination="AMk-Vx-vgz" id="yJR-f7-09k"/>
                         <outlet property="textField3" destination="OQ5-I9-3gz" id="4Sn-0f-tVt"/>

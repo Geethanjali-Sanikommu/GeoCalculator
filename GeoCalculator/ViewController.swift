@@ -9,7 +9,7 @@
 import CoreLocation
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,PickerViewControllerDelegate {
 
     
     @IBOutlet weak var Calculate: UIButton!
@@ -36,9 +36,11 @@ class ViewController: UIViewController {
         self.view.endEditing(true)
     }
     
-    func settingsChanged(distanceUnits:String, bearingUnits:String){
-        selectDistanceUnits = distanceUnits
-        selectBearingUnits = bearingUnits
+    func settingsChanged(distanceUnit:String, bearingUnit:String){
+        selectDistanceUnits = distanceUnit
+        selectBearingUnits = bearingUnit
+        distUnit.text = distanceUnit
+        beaUnit.text = bearingUnit
         self.calculation()
     }
     
@@ -56,9 +58,11 @@ class ViewController: UIViewController {
         let distanceInMiles = (distanceInKilometers*0.621371)
         let roundDmiles = Double(round(100*distanceInMiles)/100)
           if(selectDistanceUnits == "kilometers"){
+           
                 self.CalcResult.text = "\(roundDkilometer)"
            }
           else{
+           
              self.CalcResult.text = "\(roundDmiles)"
           }
         //bearing
@@ -68,9 +72,11 @@ class ViewController: UIViewController {
         let roundDegrees = Double(round(100*(bearingInDegrees))/100)
         let roundMils = Double(round(100*(bearingInMils))/100)
         if(selectBearingUnits == "degrees"){
+         
             self.BearingResult.text = "\(roundDegrees)"
         }
         else {
+         
             self.BearingResult.text = "\(roundMils)"
         }
      
@@ -120,11 +126,12 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        guard let unit = segue.destination as? PickerViewController else { return}
+     
+        if let unit = segue.destination.childViewControllers[0] as? PickerViewController {
         unit.Unit1 = self.selectDistanceUnits
         unit.Unit2 = self.selectBearingUnits
-        
+        unit.delegate = self
+        }
     }
     
     override func viewDidLoad() {
