@@ -9,7 +9,7 @@
 import CoreLocation
 import UIKit
 
-class ViewController: UIViewController,PickerViewControllerDelegate {
+class ViewController: MainViewController,PickerViewControllerDelegate {
 
     
     @IBOutlet weak var Calculate: UIButton!
